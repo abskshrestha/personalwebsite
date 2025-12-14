@@ -1,186 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George Cloone - Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Shrestha - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gradient-to-br from-blue-50 to-green-50 min-h-screen">
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-green-50 min-h-screen">
     <!-- Navigation -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold text-blue-600">GC</div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition">Home</a>
-                    <a href="#skills" class="text-gray-700 hover:text-blue-600 transition">Skills</a>
-                    <a href="#qualifications" class="text-gray-700 hover:text-blue-600 transition">Qualifications</a>
-                    <a href="#projects" class="text-gray-700 hover:text-blue-600 transition">Projects</a>
-                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
-                </div>
-                <!-- Mobile menu button -->
-                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
-            <!-- Mobile menu -->
-            <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2">
-                <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
-                <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600">Skills</a>
-                <a href="#qualifications" class="block py-2 text-gray-700 hover:text-blue-600">Qualifications</a>
-                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600">Projects</a>
-                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
-            </div>
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <div class="text-2xl font-bold text-blue-600">Abhishek Shrestha</div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="text-gray-700 hover:text-blue-600 transition"
+              >Home</a
+            >
+            <a
+              href="#skills"
+              class="text-gray-700 hover:text-blue-600 transition"
+              >Skills</a
+            >
+            <a
+              href="#qualifications"
+              class="text-gray-700 hover:text-blue-600 transition"
+              >Qualifications</a
+            >
+            <a
+              href="#projects"
+              class="text-gray-700 hover:text-blue-600 transition"
+              >Projects</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-700 hover:text-blue-600 transition"
+              >Contact</a
+            >
+          </div>
+          <!-- Mobile menu button -->
+          <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
         </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2">
+          <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600"
+            >Home</a
+          >
+          <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600"
+            >Skills</a
+          >
+          <a
+            href="#qualifications"
+            class="block py-2 text-gray-700 hover:text-blue-600"
+            >Qualifications</a
+          >
+          <a
+            href="#projects"
+            class="block py-2 text-gray-700 hover:text-blue-600"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="block py-2 text-gray-700 hover:text-blue-600"
+            >Contact</a
+          >
+        </div>
+      </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="container mx-auto px-6 py-20">
-        <div class="flex flex-col md:flex-row items-center justify-between">
-            <div class="md:w-1/2 mb-10 md:mb-0">
-                <h1 class="text-5xl font-bold text-gray-800 mb-4">Hello, I'm <span class="text-blue-600">George Cloone</span></h1>
-                <p class="text-xl text-gray-600 mb-8">Web Developer | Designer | Creator</p>
-                <p class="text-gray-600 mb-8">Welcome to my portfolio. I'm passionate about creating beautiful and functional web experiences.</p>
-                <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition inline-block">Get In Touch</a>
-            </div>
-            <div class="md:w-1/2 flex justify-center">
-                <div class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-green-400 flex items-center justify-center">
-                    <div class="w-60 h-60 rounded-full bg-white flex items-center justify-center text-gray-400">
-                        <span class="text-sm">
-                          <img src="assets/img/avataaars.svg">
-                        </span>
-                    </div>
-                </div>
-            </div>
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h1 class="text-5xl font-bold text-gray-800 mb-4">
+            Hello, I'm <span class="text-blue-600">Abhishek Shrestha</span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">
+            Web Developer | Designer | Creator
+          </p>
+          <p class="text-gray-600 mb-8">
+            Welcome to my portfolio. I'm passionate about creating beautiful and
+            functional web experiences.
+          </p>
+          <a
+            href="#contact"
+            class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition inline-block"
+            >Get In Touch</a
+          >
         </div>
+        <div class="md:w-1/2 flex justify-center">
+          <div
+            class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-green-400 flex items-center justify-center"
+          >
+            <div
+              class="w-60 h-60 rounded-full bg-white flex items-center justify-center text-gray-400"
+            >
+              <span class="avatar-container">
+                <img
+                  src="assets/img/avataaars.svg"
+                  alt="User Avatar"
+                  class="avatar-image"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Skills Section -->
+ <!-- Skills Section -->
     <section id="skills" class="bg-white py-20">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">My Skills</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Skill cards will be added here -->
-                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Skill 1</h3>
-                    <p class="text-gray-600">Description coming soon...</p>
+                <!-- Frontend -->
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">🎨</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">HTML & CSS</h3>
+                    <p class="text-gray-600">Building responsive and semantic web pages with modern HTML5 and CSS3, including Flexbox and Grid layouts.</p>
                 </div>
-                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Skill 2</h3>
-                    <p class="text-gray-600">Description coming soon...</p>
+                
+                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">⚡</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">JavaScript</h3>
+                    <p class="text-gray-600">Creating dynamic and interactive user experiences with modern ES6+ JavaScript features and best practices.</p>
                 </div>
-                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Skill 3</h3>
-                    <p class="text-gray-600">Description coming soon...</p>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">⚛️</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">React</h3>
+                    <p class="text-gray-600">Developing scalable single-page applications using React hooks, components, and state management.</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">🎯</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Tailwind CSS</h3>
+                    <p class="text-gray-600">Rapid UI development with utility-first CSS framework, creating beautiful and responsive designs efficiently.</p>
+                </div>
+                
+                <!-- Backend -->
+                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">🚀</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Node.js & Express</h3>
+                    <p class="text-gray-600">Building robust RESTful APIs and server-side applications with Express.js framework and Node.js runtime.</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="text-3xl mb-3">🍃</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">MongoDB & Mongoose</h3>
+                    <p class="text-gray-600">Managing NoSQL databases with MongoDB and creating elegant schemas with Mongoose ODM for data modeling.</p>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- Qualifications Section -->
     <section id="qualifications" class="py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Qualifications</h2>
-            <div class="max-w-3xl mx-auto space-y-6">
-                <!-- Qualification items will be added here -->
-                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Education/Certification 1</h3>
-                    <p class="text-gray-600 mb-2">Institution Name • Year</p>
-                    <p class="text-gray-600">Details coming soon...</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Education/Certification 2</h3>
-                    <p class="text-gray-600 mb-2">Institution Name • Year</p>
-                    <p class="text-gray-600">Details coming soon...</p>
-                </div>
-            </div>
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          Qualifications
+        </h2>
+        <div class="max-w-3xl mx-auto space-y-6">
+          <!-- Qualification items will be added here -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Education/Certification 1
+            </h3>
+            <p class="text-gray-600 mb-2">Institution Name • Year</p>
+            <p class="text-gray-600">Details coming soon...</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Education/Certification 2
+            </h3>
+            <p class="text-gray-600 mb-2">Institution Name • Year</p>
+            <p class="text-gray-600">Details coming soon...</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="bg-white py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Projects & Portfolio</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project cards will be added here -->
-                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
-                    <div class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white">
-                        <span>Project Image</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 1</h3>
-                        <p class="text-gray-600">Project description coming soon...</p>
-                    </div>
-                </div>
-                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
-                    <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white">
-                        <span>Project Image</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 2</h3>
-                        <p class="text-gray-600">Project description coming soon...</p>
-                    </div>
-                </div>
-                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
-                    <div class="h-48 bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-white">
-                        <span>Project Image</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 3</h3>
-                        <p class="text-gray-600">Project description coming soon...</p>
-                    </div>
-                </div>
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          Projects & Portfolio
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project cards will be added here -->
+          <div
+            class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white"
+            >
+              <span>Project Image</span>
             </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Project 1
+              </h3>
+              <p class="text-gray-600">Project description coming soon...</p>
+            </div>
+          </div>
+          <div
+            class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white"
+            >
+              <span>Project Image</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Project 2
+              </h3>
+              <p class="text-gray-600">Project description coming soon...</p>
+            </div>
+          </div>
+          <div
+            class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-white"
+            >
+              <span>Project Image</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Project 3
+              </h3>
+              <p class="text-gray-600">Project description coming soon...</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
-            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
-                <p class="text-center text-gray-600 mb-8">Feel free to reach out for collaborations or just a friendly hello!</p>
-                <div class="text-center">
-                    <a href="mailto:george.cloone@example.com" class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition inline-block">Contact Me</a>
-                </div>
-                <div class="mt-8 flex justify-center space-x-6">
-                    <a href="#" class="text-gray-600 hover:text-blue-600 transition">LinkedIn</a>
-                    <a href="#" class="text-gray-600 hover:text-blue-600 transition">GitHub</a>
-                    <a href="#" class="text-gray-600 hover:text-blue-600 transition">Twitter</a>
-                </div>
-            </div>
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          Get In Touch
+        </h2>
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+          <p class="text-center text-gray-600 mb-8">
+            Feel free to reach out for collaborations or just a friendly hello!
+          </p>
+          <div class="text-center">
+            <a
+              href=""
+              class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition inline-block"
+              >Contact Me</a
+            >
+          </div>
+          <div class="mt-8 flex justify-center space-x-6">
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition"
+              >LinkedIn</a
+            >
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition"
+              >GitHub</a
+            >
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition"
+              >Twitter</a
+            >
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2024 George Cloone. All rights reserved.</p>
-        </div>
+      <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2024 Abhishek Shrestha. All rights reserved.</p>
+      </div>
     </footer>
 
     <script>
-        // Mobile menu toggle
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
+      // Mobile menu toggle
+      document
+        .getElementById("mobile-menu-btn")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("mobile-menu");
+          menu.classList.toggle("hidden");
         });
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    // Close mobile menu if open
-                    document.getElementById('mobile-menu').classList.add('hidden');
-                }
-            });
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+            // Close mobile menu if open
+            document.getElementById("mobile-menu").classList.add("hidden");
+          }
         });
+      });
     </script>
-</body>
+  </body>
 </html>
